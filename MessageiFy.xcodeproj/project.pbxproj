@@ -81,7 +81,7 @@
 		0138CF0223AF93AD00196364 = {
 			isa = PBXGroup;
 			children = (
-				0138CF0D23AF93AD00196364 /* MessageiFy */,
+				0194A41223AF96F900A74761 /* MessageiFy */,
 				0138CF2723AF93B000196364 /* MessageiFyTests */,
 				0138CF3223AF93B000196364 /* MessageiFyUITests */,
 				0138CF0C23AF93AD00196364 /* Products */,
@@ -96,21 +96,6 @@
 				0138CF2F23AF93B000196364 /* MessageiFyUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		0138CF0D23AF93AD00196364 /* MessageiFy */ = {
-			isa = PBXGroup;
-			children = (
-				0138CF0E23AF93AD00196364 /* AppDelegate.swift */,
-				0138CF1023AF93AD00196364 /* SceneDelegate.swift */,
-				0138CF1223AF93AD00196364 /* ViewController.swift */,
-				0138CF1423AF93AD00196364 /* Main.storyboard */,
-				0138CF1A23AF93B000196364 /* Assets.xcassets */,
-				0138CF1C23AF93B000196364 /* LaunchScreen.storyboard */,
-				0138CF1F23AF93B000196364 /* Info.plist */,
-				0138CF1723AF93AD00196364 /* MessageiFy.xcdatamodeld */,
-			);
-			path = MessageiFy;
 			sourceTree = "<group>";
 		};
 		0138CF2723AF93B000196364 /* MessageiFyTests */ = {
@@ -129,6 +114,85 @@
 				0138CF3523AF93B000196364 /* Info.plist */,
 			);
 			path = MessageiFyUITests;
+			sourceTree = "<group>";
+		};
+		0194A40A23AF95C000A74761 /* APP_FOLLOW */ = {
+			isa = PBXGroup;
+			children = (
+				0194A41123AF961A00A74761 /* Configuration */,
+				0194A41023AF95F200A74761 /* Helpers */,
+				0194A40F23AF95E900A74761 /* Ressources */,
+				0194A40E23AF95E300A74761 /* View */,
+				0194A40D23AF95DD00A74761 /* Delegate */,
+				0194A40C23AF95D500A74761 /* Model */,
+				0194A40B23AF95CB00A74761 /* Controller */,
+			);
+			path = APP_FOLLOW;
+			sourceTree = "<group>";
+		};
+		0194A40B23AF95CB00A74761 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0138CF1223AF93AD00196364 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0194A40C23AF95D500A74761 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0194A40D23AF95DD00A74761 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				0138CF0E23AF93AD00196364 /* AppDelegate.swift */,
+				0138CF1023AF93AD00196364 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		0194A40E23AF95E300A74761 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0138CF1C23AF93B000196364 /* LaunchScreen.storyboard */,
+				0138CF1423AF93AD00196364 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0194A40F23AF95E900A74761 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				0138CF1A23AF93B000196364 /* Assets.xcassets */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		0194A41023AF95F200A74761 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0194A41123AF961A00A74761 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				0138CF1F23AF93B000196364 /* Info.plist */,
+				0138CF1723AF93AD00196364 /* MessageiFy.xcdatamodeld */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		0194A41223AF96F900A74761 /* MessageiFy */ = {
+			isa = PBXGroup;
+			children = (
+				0194A40A23AF95C000A74761 /* APP_FOLLOW */,
+			);
+			path = MessageiFy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -439,7 +503,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MessageiFy/Info.plist;
+				INFOPLIST_FILE = MessageiFy/APP_FOLLOW/Configuration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,7 +520,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MessageiFy/Info.plist;
+				INFOPLIST_FILE = MessageiFy/APP_FOLLOW/Configuration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
